@@ -1,0 +1,40 @@
+In file included from ../../../../perl.h:5541:0,
+                 from ExtTest.xs:2:
+ExtTest.c: In function ‘XS_ExtTest_constant’:
+../../../../embed.h:669:40: warning: ‘pv’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define sv_setpvn(a,b,c) Perl_sv_setpvn(aTHX_ a,b,c)
+                                        ^
+ExtTest.xs:420:14: note: ‘pv’ was declared here
+  const char *pv;
+              ^
+In file included from ../../../../perl.h:5541:0,
+                 from ExtTest.xs:2:
+../../../../embed.h:669:40: warning: ‘iv’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define sv_setpvn(a,b,c) Perl_sv_setpvn(aTHX_ a,b,c)
+                                        ^
+ExtTest.xs:418:6: note: ‘iv’ was declared here
+  IV  iv;
+      ^
+In file included from ../../../../perl.h:5541:0,
+                 from ExtTest.xs:2:
+ExtTest.c: In function ‘XS_ExtTest_constant’:
+../../../../embed.h:669:40: warning: ‘pv’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define sv_setpvn(a,b,c) Perl_sv_setpvn(aTHX_ a,b,c)
+                                        ^
+ExtTest.xs:194:14: note: ‘pv’ was declared here
+  const char *pv;
+              ^
+In file included from ../../../../perl.h:5541:0,
+                 from ExtTest.xs:2:
+ExtTest.c: In function ‘XS_ExtTest_constant’:
+../../../../embed.h:657:37: warning: ‘iv’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define sv_setiv(a,b)  Perl_sv_setiv(aTHX_ a,b)
+                                     ^
+ExtTest.xs:166:6: note: ‘iv’ was declared here
+  IV  iv;
+      ^
+Setting ${^ENCODING} is deprecated at ../../lib/encoding/warnings.pm line 173.
+Setting ${^ENCODING} is deprecated at ../../lib/encoding/warnings.pm line 173.
+Setting ${^ENCODING} is deprecated at ../../lib/encoding/warnings.pm line 173.
+Setting ${^ENCODING} is deprecated at ../../lib/encoding/warnings.pm line 173.
+make: *** [test_harness] Error 6
