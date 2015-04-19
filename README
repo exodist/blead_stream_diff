@@ -1,0 +1,62 @@
+
+STDERR:
+
+    The stderr differences are not interesting, they all have to do with
+    manifest issues due to Test-Simple files. Feel free to diff them manually
+    there is not much to see.
+
+STDOUT:
+
+    =Number of tests=
+
+    There are a different number of tests run, there are more when using
+    Test::Stream. This occurs because there are more files in cpan/Test-Simple
+    when using Test-Stream, none of the differences here were interesting.
+
+    =Number of todos=
+
+    There is no differences in todos. Same quantity, same exact output
+
+    =Number of skips=
+
+    There is no difference in the number of skips, however there is a line of
+    output that is different, see the check.sh output example below.
+    This line is different because of an intentional change to Test::* related
+    to how a skip_all is handled in a subtest. This one change is not
+    interesting or scary.
+
+check.sh
+
+    This script greps for skips and todos into seperate files, it then cleans
+    them up by removing the 'ok \d+' pattern (since test numbers can be
+    different ue to random stuff) It then also sorts all lines. Once the files
+    are cleaned up it diffs them. The diff is filtered so that you do not see
+    Test-Simple or Test/Stream results.
+
+What check.sh currently outputs:
+-----------------------------------------------------
+
+=============================================
+Diff of TODO:
+
+
+=============================================
+Diff of skip:
+0a1
+>  - HTTP::CookieJar # skip Needs HTTP::CookieJar
+580d580
+584a585,590
+585a592,593
+586a595,630
+588a633
+590a636,637
+1019d1065
+<  # skip Needs HTTP::CookieJar
+1794a1841
+2229d2275
+2233a2280,2282
+2234a2284,2286
+2235a2288,2289
+2237a2292,2327
+2239a2330
+2241a2333,2334
