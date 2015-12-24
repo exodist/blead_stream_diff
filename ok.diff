@@ -1,0 +1,208 @@
+121916a121917,121936
+> ok
+> ok
+> ok
+> ok
+> ok
+> ok
+> ok
+> ok
+> ok
+> ok
+> ok
+> ok
+> ok
+> ok
+> ok
+> ok
+> ok
+> ok
+> ok
+> ok
+122082,122101d122101
+< ok - 
+< ok - 
+< ok - 
+< ok - 
+< ok - 
+< ok - 
+< ok - 
+< ok - 
+< ok - 
+< ok - 
+< ok - 
+< ok - 
+< ok - 
+< ok - 
+< ok - 
+< ok - 
+< ok - 
+< ok - 
+< ok - 
+< ok - 
+122263d122262
+< ok - \$
+122264a122264
+> ok - \%;$*
+139009a139010
+> ok # 21:40, on 12/23/15
+139396d139396
+< ok # 22:14, on 12/23/15
+151345c151345
+< ok - ... and chdir x1786x
+---
+> ok - ... and chdir x14121x
+167563c167563
+< ok - calling fpathconf(4, _PC_PIPE_BUF) (fifo5619)
+---
+> ok - calling fpathconf(4, _PC_PIPE_BUF) (fifo17923)
+167630c167630
+< ok - calling pathconf(fifo5619, _PC_PIPE_BUF
+---
+> ok - calling pathconf(fifo17923, _PC_PIPE_BUF
+173168c173168
+< ok - Check &A3_30298splittest::gonner is now a gonner
+---
+> ok - Check &A3_10227splittest::gonner is now a gonner
+173805,173806c173805,173806
+< ok - Check permh6Tvxui exists
+< ok - Check permN6HlHU5 exists
+---
+> ok - Check perm2wMePAA exists
+> ok - Check permtHXal4M exists
+173981c173981
+< ok - Check we get the same thing (2202268 vs 2202268)
+---
+> ok - Check we get the same thing (1aad2e8 vs 1aad2e8)
+175186,175187c175186,175187
+< ok - Close file permh6Tvxui
+< ok - Close file permN6HlHU5
+---
+> ok - Close file perm2wMePAA
+> ok - Close file permtHXal4M
+192656c192656
+< ok - Does not contain file '30155'
+---
+> ok - Does not contain file '10087'
+204849,204850c204849,204850
+< ok -        File '../04_resolved_issues.t_30213' does not exist
+< ok -        File '../04_resolved_issues.t_30213' exists
+---
+> ok -        File '../04_resolved_issues.t_10144' does not exist
+> ok -        File '../04_resolved_issues.t_10144' exists
+212734c212734
+< ok - File permh6Tvxui exists?
+---
+> ok - File perm2wMePAA exists?
+212736c212736
+< ok - File permN6HlHU5 exists?
+---
+> ok - File permtHXal4M exists?
+214471,214472c214471,214472
+< ok -        File written to 30213.tar
+< ok -        File written to 30213.tar
+---
+> ok -        File written to 10144.tar
+> ok -        File written to 10144.tar
+215932,215935c215932,215935
+< ok - For format '%-p' and arguments/result 'x y'/'92dc38' got '0' 'missing argument' warnings
+< ok - For format '%-p' and arguments/result 'x y'/'92dc38' got '1' 'redundant argument' warnings
+< ok - For format '%-p' and arguments/result 'x y'/'92dc38' got the right result
+< ok - For format '%-p' and arguments/result 'x y'/'92dc38' No unknown warnings
+---
+> ok - For format '%-p' and arguments/result 'x y'/'1137c38' got '0' 'missing argument' warnings
+> ok - For format '%-p' and arguments/result 'x y'/'1137c38' got '1' 'redundant argument' warnings
+> ok - For format '%-p' and arguments/result 'x y'/'1137c38' got the right result
+> ok - For format '%-p' and arguments/result 'x y'/'1137c38' No unknown warnings
+234576,234577c234576,234577
+< ok - GLOB(0x1f6
+< ok - GLOB(0x1f6: no error on make_iterator
+---
+> ok - GLOB(0x1ac
+> ok - GLOB(0x1ac: no error on make_iterator
+355922,355924c355922,355924
+< ok - ./HiC_5639 does not exist
+< ok - ./HiC_5639 does not exist
+< ok - ./HiC_5639 now exists
+---
+> ok - ./HiC_17943 does not exist
+> ok - ./HiC_17943 does not exist
+> ok - ./HiC_17943 now exists
+356172,356173c356172,356173
+< ok - '/home/exodist/projects/perl/perl rel2abs2rel4230.pl' works
+< ok - '/home/exodist/projects/perl/perl rel2abs2rel4230.pl' works
+---
+> ok - '/home/exodist/projects/perl/perl rel2abs2rel16581.pl' works
+> ok - '/home/exodist/projects/perl/perl rel2abs2rel16581.pl' works
+420897d420896
+< ok - loaded version-ranges-2.json
+422228c422227
+< ok - make x1786x
+---
+> ok - make x14121x
+437225,437228c437224,437227
+< ok - no crash with tMxEevp4->new('version')
+< ok - no crash with tMxEevp4->new('version')
+< ok - no crash with tMxEevp4->parse('version')
+< ok - no crash with tMxEevp4->parse('version')
+---
+> ok - no crash with tafWYblm->new('version')
+> ok - no crash with tafWYblm->new('version')
+> ok - no crash with tafWYblm->parse('version')
+> ok - no crash with tafWYblm->parse('version')
+437269c437268
+< ok - no directory created (old-style) err=mkdir test-567b8c1e-6fa-30cc/file: File exists at t/Path.t line 434.
+---
+> ok - no directory created (old-style) err=mkdir test-567b840a-3729-1483b/file: File exists at t/Path.t line 434.
+447420c447419
+< ok -    Opened 'bin.4103' Inappropriate ioctl for device
+---
+> ok -    Opened 'bin.16449' Inappropriate ioctl for device
+453085a453085
+> ok - perm2wMePAA no longer there
+453087d453086
+< ok - permh6Tvxui no longer there
+453425d453423
+< ok - permN6HlHU5 no longer there
+453431a453430
+> ok - permtHXal4M no longer there
+453460d453458
+< ok # ph_hosts
+456368a456367
+> ok - prop_aliases: 'age=4.0' returns an empty list since is illegal property name
+457912d457910
+< ok - prop_aliases: 'nv=900000' returns an empty list since is illegal property name
+468692,468693c468690,468691
+< ok -        Read in 30213.tar again
+< ok -        Read in 30213.tar again
+---
+> ok -        Read in 10144.tar again
+> ok -        Read in 10144.tar again
+468875a468874
+> ok - README.qnx
+470558c470557
+< ok -        Renamed to '../04_resolved_issues.t_30213'
+---
+> ok -        Renamed to '../04_resolved_issues.t_10144'
+486586a486586
+> ok # smtp_hosts
+499913c499913
+< ok - testpackage2765->can(...)
+---
+> ok - testpackage15230->can(...)
+542052,542053c542052,542053
+< ok - Unlinked permh6Tvxui
+< ok - Unlinked permN6HlHU5
+---
+> ok - Unlinked perm2wMePAA
+> ok - Unlinked permtHXal4M
+547736a547737,547740
+> ok - use tafWYblm;
+> ok - use tafWYblm;
+> ok - use tafWYblm;
+> ok - use tafWYblm;
+547770,547773d547773
+< ok - use tMxEevp4;
+< ok - use tMxEevp4;
+< ok - use tMxEevp4;
+< ok - use tMxEevp4;

@@ -1,0 +1,32 @@
+
+=============================================
+Diff of comment:
+Diff is 305 lines long, see comment.diff
+
+
+=============================================
+Diff of ok:
+Diff is 208 lines long, see ok.diff
+
+=============================================
+Diff of TODO:
+No Differences
+
+
+=============================================
+Diff of skip:
+No Differences
+
+
+=============================================
+Test Counts: (This is effected by the number of files, and the number of files with pod)
+  blead: 755598
+patched: 755826
+  DELTA: 228
+
+
+=============================================
+Comment Counts:
+  blead: 12662
+patched: 12838
+  DELTA: 176

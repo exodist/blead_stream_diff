@@ -1,0 +1,305 @@
+322,348d321
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+< # 
+757d729
+< # 0
+1056c1028
+< # 2050 2624412 33152 1 1000 1000 0 5000000003 1450937669 1450937669 1450937669 4096 8
+---
+> # 2050 2624412 33152 1 1000 1000 0 5000000003 1450935643 1450935643 1450935643 4096 8
+1122d1093
+< # +2 * 31313131313131 = 62626262626262
+1125d1095
+< # +2 * 37373737373737 = 74747474747474
+1130a1101
+> # +2 * 686868686868 = 1373737373736
+1133c1104,1105
+< # +2 * 81818181 = 163636362
+---
+> # +2 * 818181 = 1636362
+> # +2 * 838383838383 = 1676767676766
+1168d1139
+< # -31313131313131 = 31313131313131
+1395d1365
+< # -37373737373737 = 37373737373737
+1579c1549
+< # 64512 4075234 33204 1 1000 1000 0 5000000003 1450937256 1450937256 1450937256 4096 8
+---
+> # 64512 4075320 33204 1 1000 1000 0 5000000003 1450935179 1450935179 1450935179 4096 8
+1607d1576
+< # -67676744444444 = 67676744444444
+1618a1588
+> # -686868686868 = 686868686868
+1670c1640
+< # -81818181 = 81818181
+---
+> # -818181 = 818181
+1673a1644
+> # -838383838383 = 838383838383
+1702d1672
+< # -98989898989898 = 98989898989898
+1747c1717
+< # adding minimum requirement: Foo::Qux => version
+---
+> # adding minimum requirement: Foo::Baz => invalid_version
+2017c1987
+< # auto-30298 being removed...
+---
+> # auto-10227 being removed...
+2034a2005,2006
+> #    B;
+> #    B;
+2042a2015,2018
+> #   [base.pm] = [../../lib/base.pm]
+> #   [base.pm] = [../../lib/base.pm]
+> #    base v2.23;
+> #    base v2.23;
+2044a2021,2022
+> #      B::Deparse;
+> #      B::Deparse;
+2344a2323,2324
+> #   [bytes.pm] = [../../lib/bytes.pm]
+> #   [bytes.pm] = [../../lib/bytes.pm]
+2346a2327,2328
+> #    bytes v1.04;
+> #    bytes v1.04;
+2374d2355
+< #    Carp;
+2378a2360,2361
+> #   [Carp.pm] = [../../lib/Carp.pm]
+> #    Carp v1.38;
+2685a2669,2672
+> #   [Config_git.pl] = [../../lib/Config_git.pl]
+> #   [Config_git.pl] = [../../lib/Config_git.pl]
+> #   [Config_heavy.pl] = [../../lib/Config_heavy.pl]
+> #   [Config_heavy.pl] = [../../lib/Config_heavy.pl]
+2691,2692c2678,2679
+< #    constant;
+< #    constant;
+---
+> #   [constant.pm] = [../../lib/constant.pm]
+> #   [constant.pm] = [../../lib/constant.pm]
+2694a2682,2683
+> #    constant v1.33;
+> #    constant v1.33;
+2837,2838d2825
+< #      Data::Dumper;
+< #      Data::Dumper;
+2845a2833,2834
+> #   [Data/Dumper.pm] = [../../lib/Data/Dumper.pm]
+> #   [Data/Dumper.pm] = [../../lib/Data/Dumper.pm]
+2876a2866,2867
+> #      Data::Dumper v2.159;
+> #      Data::Dumper v2.159;
+3309c3300
+< # ext-30624 being removed...
+---
+> # ext-10571 being removed...
+3938a3930,3931
+> #    fields;
+> #    fields;
+4200c4193
+< # Found keys 'f' and 'h' on chain 1
+---
+> # Found keys 'y' and 'f' on chain 4
+4403c4396
+< # from the 3 second run estimate 2278.82 iterations in 1 second...
+---
+> # from the 3 second run estimate 2261.75 iterations in 1 second...
+4560c4553
+< # got1 = 199999
+---
+> # got1 = 199997
+5157c5150
+< # in_threesecs=6996 iterations
+---
+> # in_threesecs=7215 iterations
+5542a5536,5537
+> #    List;
+> #    List;
+5544a5540,5545
+> #        List::Util::_Pair;
+> #        List::Util::_Pair;
+> #   [List/Util.pm] = [../../lib/List/Util.pm]
+> #   [List/Util.pm] = [../../lib/List/Util.pm]
+> #      List::Util v1.4201;
+> #      List::Util v1.4201;
+5608c5609
+< # Looping for 750000 iterations should take about 0.025s
+---
+> # Looping for 590500 iterations should take about 0.025s
+5637c5638
+< # Makefile.PL is 1 second(s) older than Makefile
+---
+> # Makefile.PL is 0 second(s) older than Makefile
+6433a6435
+> # OK, N=35 ought to do it.
+7034a7037,7038
+> #    PerlIO;
+> #    PerlIO;
+7055,7056d7058
+< #   [PerlIO.pm] = [../../lib/PerlIO.pm]
+< #   [PerlIO.pm] = [../../lib/PerlIO.pm]
+7068,7069d7069
+< #    PerlIO v1.09;
+< #    PerlIO v1.09;
+7411c7411
+< # port 41294
+---
+> # port 51310
+7548c7548
+< # Reaped: 28850
+---
+> # Reaped: 8681
+7719,7722c7719,7722
+< # s1 = 2050 2624421 33152 1 1000 1000 0 1000003 1450937669 1450937669 1450937669 4096 8
+< # s1 = 64512 4075231 33204 1 1000 1000 0 1000003 1450937256 1450937256 1450937256 4096 8
+< # s2 = 2050 2624424 33152 1 1000 1000 0 2000003 1450937669 1450937669 1450937669 4096 8
+< # s2 = 64512 4075233 33204 1 1000 1000 0 2000003 1450937256 1450937256 1450937256 4096 8
+---
+> # s1 = 2050 2624421 33152 1 1000 1000 0 1000003 1450935643 1450935643 1450935643 4096 8
+> # s1 = 64512 4075316 33204 1 1000 1000 0 1000003 1450935179 1450935179 1450935179 4096 8
+> # s2 = 2050 2624424 33152 1 1000 1000 0 2000003 1450935643 1450935643 1450935643 4096 8
+> # s2 = 64512 4075319 33204 1 1000 1000 0 2000003 1450935179 1450935179 1450935179 4096 8
+7771,7772c7771,7774
+< #      Scalar::Util;
+< #      Scalar::Util;
+---
+> #   [Scalar/Util.pm] = [../../lib/Scalar/Util.pm]
+> #   [Scalar/Util.pm] = [../../lib/Scalar/Util.pm]
+> #      Scalar::Util v1.4201;
+> #      Scalar::Util v1.4201;
+7928,7940d7929
+< # set COMPRESS_ZLIB_RUN_ALL or COMPRESS_ZLIB_RUN_MOST to run this test suite
+< # set COMPRESS_ZLIB_RUN_ALL or COMPRESS_ZLIB_RUN_MOST to run this test suite
+< # set COMPRESS_ZLIB_RUN_ALL or COMPRESS_ZLIB_RUN_MOST to run this test suite
+< # set COMPRESS_ZLIB_RUN_ALL or COMPRESS_ZLIB_RUN_MOST to run this test suite
+< # set COMPRESS_ZLIB_RUN_ALL or COMPRESS_ZLIB_RUN_MOST to run this test suite
+< # set COMPRESS_ZLIB_RUN_ALL or COMPRESS_ZLIB_RUN_MOST to run this test suite
+< # set COMPRESS_ZLIB_RUN_ALL or COMPRESS_ZLIB_RUN_MOST to run this test suite
+< # set COMPRESS_ZLIB_RUN_ALL or COMPRESS_ZLIB_RUN_MOST to run this test suite
+< # set COMPRESS_ZLIB_RUN_ALL or COMPRESS_ZLIB_RUN_MOST to run this test suite
+< # set COMPRESS_ZLIB_RUN_ALL or COMPRESS_ZLIB_RUN_MOST to run this test suite
+< # set COMPRESS_ZLIB_RUN_ALL or COMPRESS_ZLIB_RUN_MOST to run this test suite
+< # set COMPRESS_ZLIB_RUN_ALL or COMPRESS_ZLIB_RUN_MOST to run this test suite
+< # set COMPRESS_ZLIB_RUN_ALL to run this test suite
+8116a8106,8107
+> #    Sub;
+> #    Sub;
+8121a8113,8182
+> # Subtest: all exports
+> # Subtest: array
+> # Subtest: autoload
+> # Subtest: autoload_remote
+> # Subtest: bad read arguments
+> # Subtest: complex
+> # Subtest: constructor and documents
+> # Subtest: dumpxs
+> # Subtest: HTTP::CookieJar
+> # Subtest: invalid UTF-8
+> # Subtest: latin1.yml
+> # Subtest: load_remote
+> # Subtest: multibyte UTF-8
+> # Subtest: noimport
+> # Subtest: read_string as object method
+> # Subtest: Real-world examples: t/tml-world/Data-Swap.tml
+> # Subtest: Real-world examples: t/tml-world/Games-Nintendo-Wii-Mii.tml
+> # Subtest: Real-world examples: t/tml-world/HTML-WebDAO.tml
+> # Subtest: Real-world examples: t/tml-world/ITS-SIN-FIDS-Content-XML.tml
+> # Subtest: Real-world examples: t/tml-world/Plagger.tml
+> # Subtest: Real-world examples: t/tml-world/Spreadsheet-Read.tml
+> # Subtest: Real-world examples: t/tml-world/toolbar.tml
+> # Subtest: Real-world examples: t/tml-world/Vanilla-Perl.tml
+> # Subtest: Real-world examples: t/tml-world/yaml_org.tml
+> # Subtest: Real-world examples: t/tml-world/YAML-Tiny-META.tml
+> # Subtest: TestML: t/tml-local/load-error/document.tml
+> # Subtest: TestML: t/tml-local/load-error/scalar.tml
+> # Subtest: TestML: t/tml-local/load-error/tag.tml
+> # Subtest: TestML: t/tml-local/load-warning/document.tml
+> # Subtest: TestML: t/tml-local/perl-to-yaml/quoting.tml
+> # Subtest: TestML: t/tml-local/yaml-roundtrip/collection.tml
+> # Subtest: TestML: t/tml-local/yaml-roundtrip/comment.tml
+> # Subtest: TestML: t/tml-local/yaml-roundtrip/document.tml
+> # Subtest: TestML: t/tml-local/yaml-roundtrip/mapping.tml
+> # Subtest: TestML: t/tml-local/yaml-roundtrip/quoting.tml
+> # Subtest: TestML: t/tml-local/yaml-roundtrip/scalar.tml
+> # Subtest: TestML: t/tml-local/yaml-roundtrip/sequence.tml
+> # Subtest: utf_16_le_bom.yml
+> # Subtest: write ascii characters
+> # Subtest: write latin1 characters
+> # Subtest: write wide characters
+> # Subtest: $x = Math::BigFloat -> from_hex("0x0.0p+0");
+> # Subtest: $x = Math::BigFloat -> from_hex("0x.0p+0");
+> # Subtest: $x = Math::BigFloat -> from_hex("0x0.p+0");
+> # Subtest: $x = Math::BigFloat -> from_hex("0x0p+0");
+> # Subtest: $x = Math::BigFloat -> from_hex("0x0p-7");
+> # Subtest: $x = Math::BigFloat -> from_hex("0x0p+7");
+> # Subtest: $x = Math::BigFloat -> from_hex("0x12.34p-1");
+> # Subtest: $x = Math::BigFloat -> from_hex("0x1.9p+3");
+> # Subtest: $x = Math::BigFloat -> from_hex("-0x1p+0");
+> # Subtest: $x = Math::BigFloat -> from_hex("0x1p+0");
+> # Subtest: $x = Math::BigFloat -> from_hex("0x.1p+4");
+> # Subtest: $x = Math::BigFloat -> from_hex("0x2p-1");
+> # Subtest: $x = Math::BigFloat -> from_hex("0x.2p+3");
+> # Subtest: $x = Math::BigFloat -> from_hex("0x.4p+2");
+> # Subtest: $x = Math::BigFloat -> from_hex("0x4p-2");
+> # Subtest: $x = Math::BigFloat -> from_hex("-0x.789abcdefp+32");
+> # Subtest: $x = Math::BigFloat -> from_hex("0x.8p+1");
+> # Subtest: $x = Math::BigFloat -> from_hex("0x8p-3");
+> # Subtest: $x = Math::BigFloat -> from_hex("0xcafe");
+> # Subtest: $x = Math::BigFloat -> from_hex("0x.p+0");
+> # Subtest: $x = Math::BigFloat -> from_hex("cafe");
+> # Subtest: $x = Math::BigFloat -> from_hex("-inf");
+> # Subtest: $x = Math::BigFloat -> from_hex("+inf");
+> # Subtest: $x = Math::BigFloat -> from_hex("NaN");
+> # Subtest: $x = Math::BigFloat -> from_hex("xcafe");
+> # Subtest: YAML Spec Test; file: t/tml-spec/unicode.tml
+> # Subtest: YAML without newline
+> #      Sub::Util;
+> #      Sub::Util;
+8376c8437,8438
+< # t0 = 1450937531.4133
+---
+> # t0 = 1450935502.4225
+> # t1 = 1450935502.7225
+8743,8744c8805,8807
+< # tick = 1, one = 1450937531, two = 1450937531, three = 1450937531
+< # tick = 3, one = 1450937531, two = 1450937531, three = 1450937531
+---
+> # Tick! 0 1.303
+> # tick = 1, one = 1450935494, two = 1450935494, three = 1450935494
+> # tick = 3, one = 1450935494, two = 1450935494, three = 1450935494
+9465c9528
+< # Will now iterato to key 'f' then delete 'f' and 'h'.
+---
+> # Will now iterato to key 'y' then delete 'y' and 'f'.
+9765a9829,9832
+> #   [XSLoader.pm] = [../../lib/XSLoader.pm]
+> #   [XSLoader.pm] = [../../lib/XSLoader.pm]
+> #    XSLoader v0.21;
+> #    XSLoader v0.21;
