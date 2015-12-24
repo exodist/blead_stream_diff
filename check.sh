@@ -2,17 +2,21 @@
 
 cat blead.log | grep ' # skip ' > blead_skip_in.log
 cat blead.log | grep ' # TODO ' > blead_todo_in.log
-cat blead.log | grep '^# ' > blead_comment_in.log
+cat blead.log | grep '^\s*# ' > blead_comment_in.log
 cat blead.log | grep '^\(not \)\?ok ' > blead_ok_in.log
 
 cat patched.log | grep ' # skip ' > patched_skip_in.log
 cat patched.log | grep ' # TODO ' > patched_todo_in.log
-cat patched.log | grep '^# ' > patched_comment_in.log
+cat patched.log | grep '^\s*# ' > patched_comment_in.log
 cat patched.log | grep '^\(not \)\?ok ' > patched_ok_in.log
 
 # Strip out test numbers, some tests run in random order, removing the numbers
 # makes them merge better.
 perl -p -i -e 's/^(not )?ok \d+/$1ok/g' {blead,patched}_{skip,todo,ok,comment}_in.log
+
+# Subtest comment indentation has changed, remove indentation so that they do
+# not show up on the diff.
+perl -p -i -e 's{^\s*(# Subtest: .*)$}{$1}g' {blead,patched}_comment_in.log
 
 # Strip random memory addresses.
 perl -p -i -e 's/\(0x[0-9a-f]+\)/__REMOVE__/ig' {blead,patched}_{ok,comment}_in.log

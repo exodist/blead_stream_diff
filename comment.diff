@@ -211,94 +211,26 @@
 8116a8106,8107
 > #    Sub;
 > #    Sub;
-8121a8113,8182
-> # Subtest: all exports
-> # Subtest: array
-> # Subtest: autoload
-> # Subtest: autoload_remote
-> # Subtest: bad read arguments
-> # Subtest: complex
-> # Subtest: constructor and documents
-> # Subtest: dumpxs
-> # Subtest: HTTP::CookieJar
-> # Subtest: invalid UTF-8
-> # Subtest: latin1.yml
-> # Subtest: load_remote
-> # Subtest: multibyte UTF-8
-> # Subtest: noimport
-> # Subtest: read_string as object method
-> # Subtest: Real-world examples: t/tml-world/Data-Swap.tml
-> # Subtest: Real-world examples: t/tml-world/Games-Nintendo-Wii-Mii.tml
-> # Subtest: Real-world examples: t/tml-world/HTML-WebDAO.tml
-> # Subtest: Real-world examples: t/tml-world/ITS-SIN-FIDS-Content-XML.tml
-> # Subtest: Real-world examples: t/tml-world/Plagger.tml
-> # Subtest: Real-world examples: t/tml-world/Spreadsheet-Read.tml
-> # Subtest: Real-world examples: t/tml-world/toolbar.tml
-> # Subtest: Real-world examples: t/tml-world/Vanilla-Perl.tml
-> # Subtest: Real-world examples: t/tml-world/yaml_org.tml
-> # Subtest: Real-world examples: t/tml-world/YAML-Tiny-META.tml
-> # Subtest: TestML: t/tml-local/load-error/document.tml
-> # Subtest: TestML: t/tml-local/load-error/scalar.tml
-> # Subtest: TestML: t/tml-local/load-error/tag.tml
-> # Subtest: TestML: t/tml-local/load-warning/document.tml
-> # Subtest: TestML: t/tml-local/perl-to-yaml/quoting.tml
-> # Subtest: TestML: t/tml-local/yaml-roundtrip/collection.tml
-> # Subtest: TestML: t/tml-local/yaml-roundtrip/comment.tml
-> # Subtest: TestML: t/tml-local/yaml-roundtrip/document.tml
-> # Subtest: TestML: t/tml-local/yaml-roundtrip/mapping.tml
-> # Subtest: TestML: t/tml-local/yaml-roundtrip/quoting.tml
-> # Subtest: TestML: t/tml-local/yaml-roundtrip/scalar.tml
-> # Subtest: TestML: t/tml-local/yaml-roundtrip/sequence.tml
-> # Subtest: utf_16_le_bom.yml
-> # Subtest: write ascii characters
-> # Subtest: write latin1 characters
-> # Subtest: write wide characters
-> # Subtest: $x = Math::BigFloat -> from_hex("0x0.0p+0");
-> # Subtest: $x = Math::BigFloat -> from_hex("0x.0p+0");
-> # Subtest: $x = Math::BigFloat -> from_hex("0x0.p+0");
-> # Subtest: $x = Math::BigFloat -> from_hex("0x0p+0");
-> # Subtest: $x = Math::BigFloat -> from_hex("0x0p-7");
-> # Subtest: $x = Math::BigFloat -> from_hex("0x0p+7");
-> # Subtest: $x = Math::BigFloat -> from_hex("0x12.34p-1");
-> # Subtest: $x = Math::BigFloat -> from_hex("0x1.9p+3");
-> # Subtest: $x = Math::BigFloat -> from_hex("-0x1p+0");
-> # Subtest: $x = Math::BigFloat -> from_hex("0x1p+0");
-> # Subtest: $x = Math::BigFloat -> from_hex("0x.1p+4");
-> # Subtest: $x = Math::BigFloat -> from_hex("0x2p-1");
-> # Subtest: $x = Math::BigFloat -> from_hex("0x.2p+3");
-> # Subtest: $x = Math::BigFloat -> from_hex("0x.4p+2");
-> # Subtest: $x = Math::BigFloat -> from_hex("0x4p-2");
-> # Subtest: $x = Math::BigFloat -> from_hex("-0x.789abcdefp+32");
-> # Subtest: $x = Math::BigFloat -> from_hex("0x.8p+1");
-> # Subtest: $x = Math::BigFloat -> from_hex("0x8p-3");
-> # Subtest: $x = Math::BigFloat -> from_hex("0xcafe");
-> # Subtest: $x = Math::BigFloat -> from_hex("0x.p+0");
-> # Subtest: $x = Math::BigFloat -> from_hex("cafe");
-> # Subtest: $x = Math::BigFloat -> from_hex("-inf");
-> # Subtest: $x = Math::BigFloat -> from_hex("+inf");
-> # Subtest: $x = Math::BigFloat -> from_hex("NaN");
-> # Subtest: $x = Math::BigFloat -> from_hex("xcafe");
-> # Subtest: YAML Spec Test; file: t/tml-spec/unicode.tml
-> # Subtest: YAML without newline
+8359a8351,8352
 > #      Sub::Util;
 > #      Sub::Util;
-8376c8437,8438
+8614c8607,8608
 < # t0 = 1450937531.4133
 ---
 > # t0 = 1450935502.4225
 > # t1 = 1450935502.7225
-8743,8744c8805,8807
+8981,8982c8975,8977
 < # tick = 1, one = 1450937531, two = 1450937531, three = 1450937531
 < # tick = 3, one = 1450937531, two = 1450937531, three = 1450937531
 ---
 > # Tick! 0 1.303
 > # tick = 1, one = 1450935494, two = 1450935494, three = 1450935494
 > # tick = 3, one = 1450935494, two = 1450935494, three = 1450935494
-9465c9528
+9703c9698
 < # Will now iterato to key 'f' then delete 'f' and 'h'.
 ---
 > # Will now iterato to key 'y' then delete 'y' and 'f'.
-9765a9829,9832
+10003a9999,10002
 > #   [XSLoader.pm] = [../../lib/XSLoader.pm]
 > #   [XSLoader.pm] = [../../lib/XSLoader.pm]
 > #    XSLoader v0.21;
