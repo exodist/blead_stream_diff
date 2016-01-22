@@ -1,114 +1,122 @@
-1020d1019
-< # 1920 iterations
-1056c1055
-< # 2050 2621499 33152 1 1000 1000 0 5000000003 1452099697 1452099697 1452099697 4096 8
+1055c1055
+< # 2050 2621511 33152 1 1000 1000 0 5000000003 1453498638 1453498638 1453498638 4096 8
 ---
-> # 2050 2621499 33152 1 1000 1000 0 5000000003 1452097665 1452097665 1452097665 4096 8
-1057a1057
-> # 2067 iterations
-1575c1575
-< # 64512 4080954 33204 1 1000 1000 0 5000000003 1452099256 1452099256 1452099256 4096 8
+> # 2050 2621511 33152 1 1000 1000 0 5000000003 1453496477 1453496477 1453496477 4096 8
+1572c1572
+< # 64512 5510708 33204 1 1000 1000 0 5000000003 1453498189 1453498189 1453498189 4096 8
 ---
-> # 64512 4081012 33204 1 1000 1000 0 5000000003 1452097203 1452097203 1452097203 4096 8
-1739c1739
-< # adding minimum requirement: Foo::Baz => invalid_version
+> # 64512 5510722 33204 1 1000 1000 0 5000000003 1453496041 1453496041 1453496041 4096 8
+1735a1736
+> # adding minimum requirement: Foo::Bar => 10
+1737d1737
+< # adding minimum requirement: Foo::Qux => version
+1744c1744
+< # Alarm 1 - 1453498485.0738
 ---
-> # adding minimum requirement: Foo::Qux => version
-2009c2009
-< # auto-15886 being removed...
+> # Alarm 1 - 1453496317.5741
+2008c2008
+< # auto-6287 being removed...
 ---
-> # auto-5962 being removed...
-2033a2034,2037
+> # auto-4369 being removed...
+2032a2033,2036
 > #   [base.pm] = [../../lib/base.pm]
 > #   [base.pm] = [../../lib/base.pm]
 > #    base v2.23;
 > #    base v2.23;
-2365d2368
+2364d2367
 < #    Carp;
-2369a2373,2374
+2368a2372,2373
 > #   [Carp.pm] = [../../lib/Carp.pm]
 > #    Carp v1.38;
-2676a2682,2685
+2679a2685,2688
 > #   [Config_git.pl] = [../../lib/Config_git.pl]
 > #   [Config_git.pl] = [../../lib/Config_git.pl]
 > #   [Config_heavy.pl] = [../../lib/Config_heavy.pl]
 > #   [Config_heavy.pl] = [../../lib/Config_heavy.pl]
-3300c3309
-< # ext-16230 being removed...
+3303c3312
+< # ext-6649 being removed...
 ---
-> # ext-6314 being removed...
-3929a3939,3940
+> # ext-4736 being removed...
+3932a3942,3943
 > #    fields;
 > #    fields;
-4191c4202
-< # Found keys 'j' and 'e' on chain 0
+4194c4205
+< # Found keys 'z' and 'c' on chain 2
 ---
-> # Found keys 'v' and 'h' on chain 1
-4394c4405
-< # from the 3 second run estimate 1693.82 iterations in 1 second...
+> # Found keys 'w' and 'y' on chain 0
+4397c4408
+< # from the 3 second run estimate 2248.01 iterations in 1 second...
 ---
-> # from the 3 second run estimate 1901.24 iterations in 1 second...
-4551c4562
-< # got1 = 199999
+> # from the 3 second run estimate 1962.26 iterations in 1 second...
+5132c5143
+< # in_onesec=2443 iterations
 ---
-> # got1 = 200000
-5129c5140
-< # in_onesec=1920 iterations
+> # in_onesec=2239 iterations
+5151c5162
+< # in_threesecs=6789 iterations
 ---
-> # in_onesec=2067 iterations
-5148c5159
-< # in_threesecs=5488 iterations
----
-> # in_threesecs=6103 iterations
-5184a5196,5199
+> # in_threesecs=6240 iterations
+5187a5199,5202
 > #    IPC;
 > #    IPC;
 > #      IPC::SysV;
 > #      IPC::SysV;
-5532a5548,5549
+5535a5551,5552
 > #    List;
 > #    List;
-5534a5552,5557
+5537a5555,5560
 > #        List::Util::_Pair;
 > #        List::Util::_Pair;
 > #   [List/Util.pm] = [../../lib/List/Util.pm]
 > #   [List/Util.pm] = [../../lib/List/Util.pm]
 > #      List::Util v1.4201;
 > #      List::Util v1.4201;
-5598c5621
-< # Looping for 765000 iterations should take about 0.025s
+5566c5589
+< # Locale env vars: GDM_LANG=en_US;LANG=en_US.UTF-8;LANGUAGE=en_US
 ---
-> # Looping for 636750 iterations should take about 0.025s
-6841a6865
-> # parser guessed wrong encoding expected 'CP1252' got 'UTF-8'
-6997a7022,7023
+> # Locale env vars: LANGUAGE=en_US;LANG=en_US.UTF-8;GDM_LANG=en_US
+5601c5624
+< # Looping for 719750 iterations should take about 0.025s
+---
+> # Looping for 757250 iterations should take about 0.025s
+5629c5652
+< # Makefile.PL is 0 second(s) older than Makefile
+---
+> # Makefile.PL is 1 second(s) older than Makefile
+6400c6423
+< # OK, N=35 ought to do it.
+---
+> # OK, N=36 ought to do it.
+6845d6867
+< # parser guessed wrong encoding expected 'CP1252' got 'UTF-8'
+7002a7025,7026
 > #    PerlIO;
 > #    PerlIO;
-7018,7019d7043
+7023,7024d7046
 < #   [PerlIO.pm] = [../../lib/PerlIO.pm]
 < #   [PerlIO.pm] = [../../lib/PerlIO.pm]
-7031,7032d7054
+7036,7037d7057
 < #    PerlIO v1.09;
 < #    PerlIO v1.09;
-7374c7396
-< # port 50452
+7379c7399
+< # port 45300
 ---
-> # port 49551
-7511c7533
-< # Reaped: 14353
+> # port 50411
+7516c7536
+< # Reaped: 4461
 ---
-> # Reaped: 4343
-7682,7685c7704,7707
-< # s1 = 2050 2621500 33152 1 1000 1000 0 1000003 1452099697 1452099697 1452099697 4096 8
-< # s1 = 64512 4080952 33204 1 1000 1000 0 1000003 1452099256 1452099256 1452099256 4096 8
-< # s2 = 2050 2621501 33152 1 1000 1000 0 2000003 1452099697 1452099697 1452099697 4096 8
-< # s2 = 64512 4080953 33204 1 1000 1000 0 2000003 1452099256 1452099256 1452099256 4096 8
+> # Reaped: 2354
+7687,7690c7707,7710
+< # s1 = 2050 2621512 33152 1 1000 1000 0 1000003 1453498638 1453498638 1453498638 4096 8
+< # s1 = 64512 5510706 33204 1 1000 1000 0 1000003 1453498189 1453498189 1453498189 4096 8
+< # s2 = 2050 2621513 33152 1 1000 1000 0 2000003 1453498638 1453498638 1453498638 4096 8
+< # s2 = 64512 5510707 33204 1 1000 1000 0 2000003 1453498189 1453498189 1453498189 4096 8
 ---
-> # s1 = 2050 2621500 33152 1 1000 1000 0 1000003 1452097665 1452097665 1452097665 4096 8
-> # s1 = 64512 4081010 33204 1 1000 1000 0 1000003 1452097203 1452097203 1452097203 4096 8
-> # s2 = 2050 2621501 33152 1 1000 1000 0 2000003 1452097665 1452097665 1452097665 4096 8
-> # s2 = 64512 4081011 33204 1 1000 1000 0 2000003 1452097203 1452097203 1452097203 4096 8
-7734,7735c7756,7759
+> # s1 = 2050 2621512 33152 1 1000 1000 0 1000003 1453496477 1453496477 1453496477 4096 8
+> # s1 = 64512 5510720 33204 1 1000 1000 0 1000003 1453496041 1453496041 1453496041 4096 8
+> # s2 = 2050 2621513 33152 1 1000 1000 0 2000003 1453496477 1453496477 1453496477 4096 8
+> # s2 = 64512 5510721 33204 1 1000 1000 0 2000003 1453496041 1453496041 1453496041 4096 8
+7739,7740c7759,7762
 < #      Scalar::Util;
 < #      Scalar::Util;
 ---
@@ -116,35 +124,41 @@
 > #   [Scalar/Util.pm] = [../../lib/Scalar/Util.pm]
 > #      Scalar::Util v1.4201;
 > #      Scalar::Util v1.4201;
-8079a8104,8105
+7896d7917
+< # Select returned! 1 1.2017
+8085a8107,8108
 > #    Sub;
 > #    Sub;
-8344a8371,8372
+8350a8374,8375
 > #      Sub::Util;
 > #      Sub::Util;
-8599d8626
-< # t0 = 1452099550.2399
-8649a8677,8680
+8605d8629
+< # t1 = 1453498498.0946
+8655a8680,8683
 > #        Test::Builder::Formatter;
 > #        Test::Builder::Formatter;
 > #   [Test/Builder/Formatter.pm] = [../../lib/Test/Builder/Formatter.pm]
 > #   [Test/Builder/Formatter.pm] = [../../lib/Test/Builder/Formatter.pm]
-8657a8689,8692
+8663a8692,8695
 > #        Test::Builder::TodoDiag;
 > #        Test::Builder::TodoDiag;
 > #   [Test/Builder/TodoDiag.pm] = [../../lib/Test/Builder/TodoDiag.pm]
 > #   [Test/Builder/TodoDiag.pm] = [../../lib/Test/Builder/TodoDiag.pm]
-8966,8967c9001,9002
-< # tick = 1, one = 1452099550, two = 1452099550, three = 1452099550
-< # tick = 3, one = 1452099550, two = 1452099550, three = 1452099550
+8972,8973c9004,9005
+< # tick = 1, one = 1453498497, two = 1453498497, three = 1453498497
+< # tick = 3, one = 1453498497, two = 1453498497, three = 1453498497
 ---
-> # tick = 1, one = 1452097512, two = 1452097512, three = 1452097512
-> # tick = 3, one = 1452097512, two = 1452097512, three = 1452097512
-9667c9702
-< # Will now iterato to key 'j' then delete 'j' and 'e'.
+> # tick = 1, one = 1453496330, two = 1453496330, three = 1453496330
+> # tick = 3, one = 1453496330, two = 1453496330, three = 1453496330
+9005c9037
+< # Total calls: 29860703.
 ---
-> # Will now iterato to key 'v' then delete 'v' and 'h'.
-9942a9978,9981
+> # Total calls: 48315633.
+9673c9705
+< # Will now iterato to key 'z' then delete 'z' and 'c'.
+---
+> # Will now iterato to key 'w' then delete 'w' and 'y'.
+9948a9981,9984
 > #   [XSLoader.pm] = [../../lib/XSLoader.pm]
 > #   [XSLoader.pm] = [../../lib/XSLoader.pm]
 > #    XSLoader v0.21;
